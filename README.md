@@ -42,45 +42,45 @@ body{
 
 
 .navbar {
-    display: flex; /* Per allineare orizzontalmente gli elementi all'interno della navbar */
-    justify-content: space-between; /* Per distribuire gli elementi all'interno della navbar */
-    align-items: center; /* Per allineare verticalmente gli elementi all'interno della navbar */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
   }
   .logo-container {
-    display: flex; /* per allineare gli elementi all'interno del contenitore */
-    align-items: center; /* per allineare verticalmente gli elementi all'interno del contenitore */
+    display: flex; 
+    align-items: center; 
   }
   
   .company-name {
-    margin-left: 10px; /* per separare il nome dell'azienda dal logo */
+    margin-left: 10px; 
     font-size: 30px;
     color:green;
   }
   
   .navbar-items-container {
-    display: flex; /* Per allineare orizzontalmente gli elementi all'interno del contenitore */
-    align-items: center; /* Per allineare verticalmente gli elementi all'interno del contenitore */
+    display: flex; 
+    align-items: center; 
   }
   
   .navbar-item {
-    margin: 0 10px; /* Margine per separare gli elementi */
+    margin: 0 10px; 
     cursor: pointer;
     font-size: 20px;
   }
   
   .navbar-buttons-container {
-    display: flex; /* Per allineare orizzontalmente gli elementi all'interno del contenitore */
+    display: flex; 
   }
   
   .green-button, .white-button {
-    border-radius: 20px; /* Smussatura dei bordi */
-    padding: 10px 20px; /* Spaziatura interna */
-    margin-left: 10px; /* Margine per separare i bottoni */
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    margin-left: 10px; 
   }
   
   .green-button {
-    background-color: green; /* Colore di sfondo */
-    color: white; /* Colore del testo */
+    background-color: green; 
+    color: white; 
     cursor: pointer;
   }
   
